@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="penguinos" fetch="https://github.com/GamerX65" />
+    <remove-project name="Karan-Frost/device_xiaomi_veux" optional="true" />
+    <remove-project name="xiaomi-sm6375-devs/android_kernel_xiaomi_sm6375" optional="true" />
+    <remove-project name="xiaomi-sm6375-devs/android_hardware_xiaomi" optional="true" />
+    <remove-project name="AOSPA/android_hardware_qcom_thermal" optional="true" />
+    <remove-project name="LineageOS/android_hardware_qcom_display" optional="true" />
+    <remove-project name="AOSPA/android_kernel_build" optional="true" />
+    <project path="device/xiaomi/veux" name="android_device_xiaomi_veux" remote="penguinos" revision="penguinos/android-17" />
+    <project path="kernel/xiaomi/sm6375" name="android_kernel_xiaomi_sm6375" remote="penguinos" revision="penguinos/android-17" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="penguinos" revision="penguinos/android-17" />
+    <project path="vendor/qcom/opensource/thermal-hal" name="android_hardware_qcom_thermal" remote="penguinos" revision="penguinos/android-17" />
+    <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" remote="penguinos" revision="penguinos/android-17" />
+    <project path="device/qcom/kernelscripts" name="android_kernel_build" remote="penguinos" revision="penguinos/android-17" />
+</manifest>

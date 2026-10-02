@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "release": "PenguinOS Android 17 — veux / peux",
+  "devices": [
+    {"codename": "veux", "name": "Xiaomi Redmi Note 11 Pro 5G"},
+    {"codename": "peux", "name": "POCO X4 Pro 5G"}
+  ],
+  "branch": "penguinos/android-17",
+  "components": [
+    {"path": "device/xiaomi/veux", "upstream": "https://github.com/Karan-Frost/device_xiaomi_veux", "upstreamRevision": "51e406d134d2304fbe7de649540061c6fe835ee8", "repository": "https://github.com/GamerX65/android_device_xiaomi_veux"},
+    {"path": "kernel/xiaomi/sm6375", "upstream": "https://github.com/xiaomi-sm6375-devs/android_kernel_xiaomi_sm6375", "upstreamRevision": "8050fa5150de3697e54e1366e968a3af0a6911ec", "repository": "https://github.com/GamerX65/android_kernel_xiaomi_sm6375"},
+    {"path": "hardware/xiaomi", "upstream": "https://github.com/xiaomi-sm6375-devs/android_hardware_xiaomi", "upstreamRevision": "70d28493af5425f5b95a5e8ba91418c677bcc06e", "repository": "https://github.com/GamerX65/android_hardware_xiaomi"},
+    {"path": "vendor/qcom/opensource/thermal-hal", "upstream": "https://github.com/AOSPA/android_hardware_qcom_thermal", "upstreamRevision": "e6606b4637b49ca0d993661015689bcad2d9f46c", "repository": "https://github.com/GamerX65/android_hardware_qcom_thermal"},
+    {"path": "hardware/qcom-caf/sm8350/display", "upstream": "https://github.com/LineageOS/android_hardware_qcom_display", "upstreamRevision": "e9bbe9a980d408af36b52f2abaae7c35647b7425", "repository": "https://github.com/GamerX65/android_hardware_qcom_display"},
+    {"path": "device/qcom/kernelscripts", "upstream": "https://github.com/AOSPA/android_kernel_build", "upstreamRevision": "949c19886fc23249399b73256a41f436823df8f9", "repository": "https://github.com/GamerX65/android_kernel_build"}
+  ],
+  "vendor": {"repository": "https://github.com/GamerX65/android_vendor_xiaomi_veux", "containsProprietaryBlobs": false}
+}
